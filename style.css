@@ -1,0 +1,416 @@
+           p{
+
+               border: solid;
+
+           }
+
+           .header{
+
+            background-color: #57ff8372;
+
+            display: flex;
+
+            justify-content: space-around;
+
+            text-shadow: 1px 1px #ff0000;
+
+            border: solid;
+
+           }
+
+           h1{
+
+            color: #374555;
+
+            margin-right: 1000px;
+
+            border: dashed;
+
+            padding: 20px;
+
+
+           }
+
+           p,h2{
+
+            text-align: center;
+
+            text-decoration: underline;
+
+           }
+
+           .pro{
+
+            display:flex;
+
+            flex-wrap: wrap;
+
+            justify-content: space-evenly;
+
+           }
+
+           .game{
+
+            border: double;
+
+            border-color: blueviolet;
+
+           }
+
+           .game2{
+
+            border: dashed;
+
+            border-color: rgb(20, 65, 209);
+
+           }
+
+           .game3{
+
+            border: ridge;
+
+            border-color: orange;
+
+           }
+
+           .game4{
+
+            border: dashed;
+
+            border-color: springgreen;
+
+           }
+
+           .game5{
+
+            border: ridge;
+
+            border-color: slateblue;
+
+           }
+
+           .game6{
+
+            border: double;
+
+            border-color: rgb(163, 116, 116);
+
+           }
+
+           .game7{
+
+            border: outset;
+
+            border-color: peru;
+
+           }
+
+           .game8{
+
+            border: double;
+
+            border-color: salmon;
+
+           }
+
+           .game9{
+
+            border: dashed;
+
+            border-color: mediumvioletred;
+
+           }
+
+           .game10{
+
+            border: ridge;
+
+            border-color: gold;
+
+           }
+
+           .apps{
+
+            display: flex;
+
+            justify-content: flex-end;
+
+           }
+
+           a:link{
+
+            color: blueviolet;
+
+           }
+
+           a:visited{
+
+            color: rgb(20, 255, 71);
+
+           }
+
+           a:active{
+
+            color: gold;
+
+           }
+
+           .game1 p{
+
+            position: absolute;
+
+            top: 50%;
+
+            right: 80%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game1:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game1:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game2 p{
+
+            position: absolute;
+
+            top: 50%;
+
+            left: 50%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game2:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game2:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game3 p{
+
+            position: absolute;
+
+            top: 50%;
+
+            left: 80%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game3:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game3:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game4 p{
+
+            position: absolute;
+
+            top: 90%;
+
+            right: 80%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game4:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game4:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game5 p{
+
+            position: absolute;
+
+            top: 90%;
+
+            left: 50%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game5:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game5:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game6 p{
+
+            position: absolute;
+
+            top: 90%;
+
+            left: 80%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game6:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game6:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game7 p{
+
+            position: absolute;
+
+            top: 130%;
+
+            right: 80%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game7:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game7:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game8 p{
+
+            position: absolute;
+
+            top: 130%;
+
+            left: 50%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game8:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game8:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game9 p{
+
+            position: absolute;
+
+            top: 130%;
+
+            left: 80%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game9:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game9:hover img{
+
+           opacity: 0.2;
+
+           }
+
+           .game10 p{
+
+            position: absolute;
+
+            top: 170%;
+
+            left: 50%;
+
+            transform: translate(-50%, 50%);
+
+            opacity: 0;
+
+           }
+
+           .game10:hover p{
+
+            opacity: 1;
+
+           }
+
+           .game10:hover img{
+
+           opacity: 0.2;
+
+           }
